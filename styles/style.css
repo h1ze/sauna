@@ -1,3 +1,5 @@
+/* @import url("normalize.css"); */
+
 /* font-family: 'Oswald', sans-serif; */
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
 
@@ -6,6 +8,7 @@
 
 .header {
   display: flex;
+  box-sizing: border-box;
 }
 
 .logo {
@@ -18,4 +21,16 @@
 
 .address {
   display: flex;
+}
+
+.header__button {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 6px 42px 8px;
+  background: #ea8f41;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
 }
