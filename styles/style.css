@@ -10,6 +10,8 @@
   display: flex;
   box-sizing: border-box;
   list-style: none;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -24,6 +26,24 @@
   display: flex;
 }
 
+.contacts {
+  display: flex;
+  align-items: center;
+}
+
+.contacts__phone {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.contacts__img {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+
 .header__button {
   font-family: "Oswald", sans-serif;
   font-weight: 600;
@@ -34,4 +54,9 @@
   color: #ffffff;
   border-radius: 5px;
   border: none;
+}
+
+a {
+  width: 20px;
+  height: 20px;
 }
